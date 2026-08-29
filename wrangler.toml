@@ -1,0 +1,8 @@
+name = "bata-botswana-storefront"
+compatibility_date = "2026-08-28"
+pages_build_output_dir = "dist/public"
+
+[vars]
+# Set this in Cloudflare Pages project settings for Preview and Production.
+# It must point to the separately hosted Express/tRPC API origin.
+API_ORIGIN = "https://api.example.com"
